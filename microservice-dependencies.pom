@@ -207,4 +207,12 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>dependencies</id>
+            <name>GitHub Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/chikit-lo/microservice-dependencies</url>
+        </repository>
+    </distributionManagement>
 </project>
